@@ -1,0 +1,8 @@
+[package]
+name = "guess"
+version = "0.1.0"
+authors = ["tvancise"]
+edition = "2018"
+
+[dependencies]
+rand = "*"
