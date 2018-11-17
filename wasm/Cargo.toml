@@ -1,0 +1,11 @@
+[package]
+name = "wasm"
+version = "0.1.0"
+authors = ["tvancise"]
+edition = "2018"
+
+[lib]
+path = "src/lib.rs"
+crate-type = ["cdylib"]
+
+[dependencies]
